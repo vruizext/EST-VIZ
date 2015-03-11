@@ -72,7 +72,6 @@ output$VisualizeAAR <- renderPlot({
   nam <- estData$Grouping.Variable.N[idnam-1]
   
   plType <- "AAR"
-  
   wGet <- "AAR"
   idAR <- which(str_detect(names(estData), wGet))
   namAR <- names(estData)[idAR]

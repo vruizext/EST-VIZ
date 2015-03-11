@@ -57,7 +57,7 @@ shinyServer(function(input, output, session) {
                                        "t-Statistics"     = "tstat")),
               hr(),
               selectizeInput(inputId  = "ARGroups", 
-                             labels   = "Groups", 
+                             label    = "Groups", 
                              choices  = nam,
                              multiple = TRUE)),
           box(title = "Visualization", 
